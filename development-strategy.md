@@ -1,50 +1,117 @@
 # Development Strategy
 
-> `name-of-project`
+> `semantic-layout`
 
-write a short description of your project:
-- who would want to use it?
-- why would they want to use it?
+write a short description of your web page:
+
+- what is it about?
+- who would want to read it?
+- why would they want to read it?
 
 ## Wireframe
 
-<!-- include a wireframe for your project in this repository, and display it here -->
-<!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe]()
+![wireframe](./wireframe.gif)
 
 ## 0. Set-Up
 
 __A User can see my initial repository and live demo__
 
-### Repo
+### Branch
 
-- Generate from Template
-- Write initial, basic README
-- Turn on GitHub Pages
+1. Created a new repository [generated](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) from [this template](https://github.com/hackyourfuturebelgium/w3-validation-template)
+1. Clone the repository
+1. Copy-paste the markdown from this file to the empty `development-strategy.md` file in the new repo
+1. Add [this wireframe](./wireframe.gif) into your new repo
+1. Start your README file
+1. Push the changes
+1. turn on GitHub Pages
 
-## 1. __
+---
 
-__full user story description__
+## 1. User Story: title
 
-### Repo
+__As a site visitor, I want to know what the web page is called__
 
-what branch(es) did you work on?
+### Branches
+
+1. This user story was developed on a brach called `title`
+1. It was merged to `master` when the feature was finished.
 
 ### HTML
 
-what did you change in the HTML and why?
+- A header element with a title describing the web page
+- A pleasant footer
 
 ### CSS
 
-what did you change in the CSS and why?
+- Layout styling for the header & footer
+- Text styling for the main title
 
-## 2. ...
+---
 
-...
+## 2. User Story: introduction
 
-...
+__As a site visitor, I want to read an introduction to this web page__
 
-## Finishing Touches
+### Branches
+
+1. This user story was developed on a brach called `introduction`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- section element
+- some nice text in the section introducing users to this web page
+
+### CSS
+
+Styling for the new element
+
+---
+
+## 3. User Story: main text
+
+__As a site visitor, I want to learn about something cool__
+
+### Branches
+
+1. This user story was developed on a brach called `main-text`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- article element
+- something cool that everyone needs to know
+
+### CSS
+
+Styling for the new element
+
+---
+
+## 4. User Story: references
+
+__As a site visitor, I want to know where I can learn more__
+
+### Branches
+
+1. This user story was developed on a brach called `references`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- aside element
+- some links for people to learn more about the cool thing
+
+### CSS
+
+Styling for the new element
+
+---
+
+## 5. Finishing Touches
+
+__As a perfectionist, I want everything perfect :)__
 
 - Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)
